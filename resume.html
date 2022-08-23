@@ -3,21 +3,78 @@
     <head>
         <title>Р.А. - Резюме</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="resume-styles.css">
     </head>
 
     <body>
-        <main>
-            <h1>РЯБЫШКИН АЛЕКСАНДР</h1>
-            <h2>JUNIOR PYTHON РАЗРАБОТЧИК</h2>
-            <p>14.02.1998 | sintes4ek@gmail.com | 8 (985) 752-07-52 | github.com/Wugdich</p>
-            <br>
-
-            <h3>Образование</h3>
-            <section>
-                <p>РЭУ имени Г.В.Плеханова - Экономико-правовое обеспечение экономической безопасности</p>
-                <p>Сен 2016 - Июль 2021</p>
+        <main class="sections">
+            <section id="title" class="center">
+                <h1>РЯБЫШКИН АЛЕКСАНДР</h1>
+                <h2>JUNIOR PYTHON РАЗРАБОТЧИК</h2>
+                <p>14.02.1998 | sintes4ek@gmail.com | 8 (985) 752-07-52 | github.com/Wugdich</p>
+                <br>
             </section>
-            <p>Open Source Society University - Computer Science (github.com/ossu/computer-science)</p>
+
+            <section id="education">
+                <h3>Образование</h3>
+                <p class="alignleft">РЭУ имени Г.В.Плеханова - Экономико-правовое обеспечение экономической безопасности</p>
+                <p class="alignright">Сен 2016 - Июль 2021</p>
+                <div style="clear: both;"></div>
+                <p class="alignleft">Open Source Society University - Computer Science (github.com/ossu/computer-science)</p>
+                <p class="alignright">Дек 2021 - Наст. время</p>
+                <div style="clear: both;"></div>
+            </section>
+
+            <section id="skills">
+                <h3>Навыки</h3>
+                <table>
+                    <tr>
+                        <td>Языки:</td>
+                        <td>Python, VBA, SQL, HTML, CSS</td>
+                    </tr>
+                    <tr>
+                        <td>Технологии:</td>
+                        <td>Git, Linux, Windows</td>
+                    <tr>
+                    <tr>
+                        <td>Иностранные языки:</td>
+                        <td>English(B1)</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="expirience">
+                <h3>Профессиональный опыт</h3>
+
+                <p class="alignleft">Python/VBA разработчик</p>
+                <p class="alignright">Дек 2020 - Наст. время</p>
+                <div style="clear: both;"></div>
+                <p>Телекомпания "НТВ" - Общероссийский федеральный канал</p>
+                <p>Служба исследований</p>
+                <p>Обязанности:</p>
+                <ul type="disc">
+                    <li>Автоматизация процесса аналитики</li>
+                    <li>Сбор и анализ данных</li>
+                    <li>Поддержка и доработка существующих проектов</li>
+                </ul>
+                <p>Достижения:</p>
+                <ul type="disc">
+                    <li>Релизация ряда инструментов для работы с данными</li>
+                    <li>Автоматизация процессов подготовки и проверки периодичной отчетности</li>
+                    <li>Модернизация существующих проектов</li>
+                </ul>
+            </section>
+
+            <section id="projects">
+                <h3>Проекты</h3>
+                <p>Read Utility</p>
+                <p>Утилита для командной строки на Python. Печатaет в терминал краткое
+                содержание случайной статьи из википедии и ссылку на нее.</p>
+            </section>
+
+            <section id="interests">
+                <h3>Увлечения</h3>
+                <p>Математика, шахматы, литература, волейбол, workout, настольные и компьютерные игры</p>
         </main>
     </body>
 </html>

@@ -5,4 +5,9 @@
 .alignright {
     float: right;
 }
-
+.center {
+    text-align: center;
+}
+.sections {
+    margin: 30px 200px 50px 200px;
+}
