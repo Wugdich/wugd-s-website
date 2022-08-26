@@ -5,13 +5,13 @@
 }
 
 @font-face {
-    font-family: "Helvetica Bold";
+    font-family: "Helvetica";
     src: url("../fonts/Helvetica-Bold.ttf");
     font-weight: 700;
 }
 
 @font-face {
-    font-family: "Helvetica Light";
+    font-family: "Helvetica";
     src: url("../fonts/Helvetica-Light.ttf");
     font-weight: 300;
 }
@@ -55,6 +55,7 @@ td {
 
 p, ul {
     margin: 10px;
+    line-height: 1.5;
 }
 
 section {
