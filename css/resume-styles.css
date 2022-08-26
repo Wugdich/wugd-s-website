@@ -44,6 +44,8 @@ h1, h2, h3 {
 
 h3 {
     border-bottom: 1px solid black;
+    border-color: grey;
+    font-variant: small-caps;
 }
 
 td {
