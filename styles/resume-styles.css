@@ -66,3 +66,11 @@ section {
 .subheader {
     color: grey;
 }
+
+.task-list {
+    list-style-image: url("../images/task-icon.png")
+}
+
+.done-task-list {
+    list-style-image: url("../images/done-task-icon.png")
+}
