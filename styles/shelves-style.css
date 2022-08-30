@@ -1,0 +1,23 @@
+html {
+   font-size: 16px;
+   color: #F2AA4CFF;
+   background: #101820FF;
+   font-family: serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 1.1rem;
+    border-bottom: 1px solid #F2AA4C;
+    margin: 0 40px;
+    padding: 5px;
+}
+
+td {
+    padding: 1.5rem;
+}
+
+
